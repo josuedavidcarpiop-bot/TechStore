@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHSTORE</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <a href="#">TechStore</a>
+    </header>
+    <nav>
+        <a href="#">Carrito de compras</a>
+    </nav>
+    <main>  
+        <input type="text" list="categorias" id="categoria" placeholder="Categoria">
+        <datalist id="categorias">
+            <option value="Electronica">
+            <option value="Audio">
+        </datalist>
+        <div id="contenedor_Tarjetas"></div>
+        
+        <div id="contenedor_Carrito">
+            <p>---------------------------------</p><br>
+            <h3>Carrito:</h3><br>
+            <p>---------------------------------</p><br>
+            <div id="contenedor_Carrito_Productos"></div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
